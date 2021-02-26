@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel=icon href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h4 class="calc">Calculator</h4>
+        <div id="history">
+            <h4 id="history-h"></h4>
+        </div>
+        <div id="history">
+            <input id="calculation"/>
+        </div>
+        <div class="symbols">
+            <div class="btn clear" id="clear" onclick="cleared()">C</div>
+            <div class="btn empty"></div>
+            <div class="btn empty"></div>
+            <div class="btn equals" id="equals" onclick="equals()">=</div>
+            <div class="btn" onclick="seven()">7</div>
+            <div class="btn" onclick="eight()">8</div>
+            <div class="btn" onclick="nine()">9</div>
+            <div class="btn" onclick="add()">+</div>
+            <div class="btn" onclick="four()">4</div>
+            <div class="btn" onclick="five()">5</div>
+            <div class="btn" onclick="six()">6</div>
+            <div class="btn" onclick="sub()">-</div>
+            <div class="btn" onclick="one()">1</div>
+            <div class="btn" onclick="two()">2</div>
+            <div class="btn" onclick="three()">3</div>
+            <div class="btn" onclick="multiply()">x</div>
+            <div class="btn" onclick="power()">^</div>
+            <div class="btn" onclick="zero()">0</div>
+            <div class="btn" onclick="decimal()">.</div>
+            <div class="btn" onclick="divide()">/</div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
