@@ -15,6 +15,7 @@ body{
 
 /* Class for buttons */
 .btn{
+    background-color: white;
     border: 1px solid white;
     height: 50px;
     width: 50px;
